@@ -458,8 +458,7 @@ public class PlayHelper {
             return "";
         }
         long size = mHwAudioConfigManager.getPlayCacheSize() / SIZE_M;
-        DecimalFormat format = new DecimalFormat("#0.0", new DecimalFormatSymbols(Locale.ENGLISH));
-        return format.format(size) + "M";
+        return size + "M";
     }
 
     /**
@@ -474,8 +473,7 @@ public class PlayHelper {
             return "";
         }
         long size = mHwAudioConfigManager.getUsedCacheSize() / SIZE_M;
-        DecimalFormat format = new DecimalFormat("#0.0", new DecimalFormatSymbols(Locale.ENGLISH));
-        return format.format(size) + "M";
+        return size + "M";
     }
 
     /**
@@ -501,6 +499,7 @@ public class PlayHelper {
             Log.w(TAG, "setCacheSize err");
             return;
         }
+        size = Math.min(size, 200 * SIZE_M);
         mHwAudioConfigManager.setPlayCacheSize(size * SIZE_M);
     }
 }

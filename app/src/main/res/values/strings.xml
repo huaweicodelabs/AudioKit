@@ -1,5 +1,17 @@
 <!--
-  ~ Copyright (c) Huawei Technologies Co., Ltd. 2019-2020. All rights reserved.
+  ~ Copyright 2020. Huawei Technologies Co., Ltd. All rights reserved.
+  ~
+  ~    Licensed under the Apache License, Version 2.0 (the "License");
+  ~    you may not use this file except in compliance with the License.
+  ~    You may obtain a copy of the License at
+  ~
+  ~      http://www.apache.org/licenses/LICENSE-2.0
+  ~
+  ~    Unless required by applicable law or agreed to in writing, software
+  ~    distributed under the License is distributed on an "AS IS" BASIS,
+  ~    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  ~    See the License for the specific language governing permissions and
+  ~    limitations under the License.
   -->
 
 <resources>
@@ -7,8 +19,8 @@
     <string name="set_cache">Cache Settings</string>
     <string name="set_play">Play the input url</string>
     <string name="play_path">Input url</string>
-    <string name="set_cache_size">Set cache size, unit M</string>
-    <string name="cur_cache_size">Cache limit：</string>
+    <string name="set_cache_size">Set cache size, only integers can be written, unit M</string>
+    <string name="cur_cache_size">The maximum cache space that can be set is 200M, Cache limit：</string>
     <string name="cur_use_cache_size">Used cache size</string>
     <string name="clear_cache">Clear cache</string>
     <string name="online_list">Online playlist</string>
@@ -16,6 +28,8 @@
     <string name="cancel">Cancel</string>
     <string name="ok">OK</string>
     <string name="btn_play">Play</string>
+    <string name="can_not_play">can not play</string>
+
     <string name="cvaa_minimize_button" priority="LT">Open app</string>
     <string name="cvaa_play_or_pause" priority="LT">Play or pause</string>
     <string name="cvaa_pre" priority="LT">Previous</string>

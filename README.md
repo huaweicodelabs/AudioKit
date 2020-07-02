@@ -15,7 +15,8 @@
    The following describes packages of Android sample code.
 
  HwAudioPlayerManager:Manages playback operations such as play, pause, skip back, skip next, stop, and drag the progress bar.
-
+ HwAudioPlayItem:An audio data class. The data includes the album name, artist, whether an audio is online, and others.
+ HwAudioQueueManager:Manages audio queues, for example, deletes a specified audio from a queue (playlist).
 	
 ## Getting Started
 
@@ -32,7 +33,7 @@
 
 
 ## Result
-   <img src="result_1.png">
+   <img src="result_1.jpg">
    <img src="result_2.jpg">
 
 ##  License

@@ -27,6 +27,7 @@ import android.widget.EditText;
 import android.widget.ImageView;
 import android.widget.SeekBar;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import com.huawei.hms.api.bean.HwAudioPlayItem;
 import com.huawei.hms.audiokit.player.manager.HwAudioStatusListener;
@@ -146,6 +147,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
         @Override
         public void onPlayError(int errorCode, boolean isUserForcePlay) {
+            Toast.makeText(MainActivity.this, R.string.can_not_play, Toast.LENGTH_SHORT).show();
             Log.d(TAG, "errorCode: " + errorCode + "isUserForcePlay: " + isUserForcePlay);
         }
 
