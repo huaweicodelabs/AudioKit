@@ -28,7 +28,8 @@
 	
 	
 ## Supported Environments
-   Android SDK Version >= 21 and JDK version >= 1.7 is recommended.
+   Android SDK: 21 and later versions
+   JDK 1.8.211 and later versions
 
 
 ## Result
