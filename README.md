@@ -4,9 +4,9 @@
 ## Table of Contents
 
  * [Introduction](#introduction)
- * [Getting Started](#Getting-Started)
+ * [Getting Started](#getting-started)
  * [Supported Environments](#supported-environments)
- * [Result](#Result)
+ * [Result](#result)
  * [License](#license)
  
 
@@ -28,12 +28,12 @@
 	
 	
 ## Supported Environments
-   Android SDK: 21 and later versions
-   JDK 1.8.211 and later versions
+   Android SDK: 21 and later versions</br>
+   JDK: 1.8.211 and later versions
 
 
 ## Result
    <img src="result_1.jpg">
 
 ##  License
-    AudioKitDemo is licensed under the [Apache License, version 2.0](http://www.apache.org/licenses/LICENSE-2.0).
+AudioKitDemo is licensed under the [Apache License, version 2.0](http://www.apache.org/licenses/LICENSE-2.0).
